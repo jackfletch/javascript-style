@@ -1,8 +1,8 @@
-import fs from 'fs';
-import path from 'path';
-import test from 'tape';
+const fs = require('fs');
+const path = require('path');
+const test = require('tape');
 
-import index from '..';
+const index = require('..');
 
 const files = {...{index}}; // object spread is to test parsing
 
