@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/jackfletch/javascript-style",
   "dependencies": {
+    "eslint-config-airbnb": "^18.1.0",
     "eslint-config-jackfletch-base": "^0.0.1",
     "object.assign": "^4.1.0",
     "object.entries": "^1.1.1"

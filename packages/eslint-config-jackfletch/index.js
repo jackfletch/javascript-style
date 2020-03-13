@@ -1,9 +1,8 @@
 module.exports = {
   extends: [
+    'eslint-config-airbnb',
     'eslint-config-jackfletch-base',
-    './rules/react',
-    './rules/react-a11y',
-    './rules/react-hooks',
+    './overwrites',
   ].map(require.resolve),
   rules: {},
 };
