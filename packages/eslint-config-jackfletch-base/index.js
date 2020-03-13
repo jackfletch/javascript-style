@@ -1,7 +1,7 @@
 module.exports = {
   extends: [
     'eslint-config-airbnb-base',
-    './overwrites',
+    './overrides',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2018,

@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'eslint-config-airbnb',
     'eslint-config-jackfletch-base',
-    './overwrites',
+    './overrides',
   ].map(require.resolve),
   rules: {},
 };
