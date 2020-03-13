@@ -7,6 +7,6 @@ module.exports = {
         extensions: ['.jsx', '.js']
       }
     ],
-    'react/require-default-props': 'ignore',
+    'react/require-default-props': 'off',
   },
 };
