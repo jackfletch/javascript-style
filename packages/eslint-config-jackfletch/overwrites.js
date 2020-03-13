@@ -4,8 +4,8 @@ module.exports = {
     'react/jsx-filename-extension': [
       'error',
       {
-        extensions: ['.jsx', '.js']
-      }
+        extensions: ['.jsx', '.js'],
+      },
     ],
     'react/require-default-props': 'off',
   },
